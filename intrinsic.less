@@ -1,0 +1,23 @@
+/*! intrinsic */
+
+.intrinsic(@ratio: 16/9, @bg: darken(white, 5%)) {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: @bg;
+
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    // strip units
+    padding-bottom: (100% / (@ratio / (@ratio * 0 + 1)));
+  }
+}
