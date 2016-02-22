@@ -1,0 +1,25 @@
+{
+  "name": "intrinsic",
+  "version": "2.0.0",
+  "description": "A simple mixin for easy intrinsic ratios.",
+  "main": "intrinsic.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corysimmons/intrinsic.git"
+  },
+  "keywords": [
+    "intrinsic",
+    "ratio",
+    "mixin",
+    "youtube",
+    "responsive",
+    "video",
+    "reflow"
+  ],
+  "author": "Cory Simmons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corysimmons/intrinsic/issues"
+  },
+  "homepage": "https://github.com/corysimmons/intrinsic#readme"
+}
