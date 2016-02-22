@@ -42,11 +42,11 @@ Be sure to [throttle](http://elijahmanor.com/enhanced-chrome-emulation-tools/) y
 ```
 
 ```html
-<div class="intrinsic">
+<div class="youtube">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/JhHMJCUmq28" frameborder="0" allowfullscreen></iframe>
 </div>
 
-<div class="intrinsic bg-cover"></div>
+<div class="bg-cover"></div>
 ```
 
 ### Options
