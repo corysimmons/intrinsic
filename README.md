@@ -36,7 +36,7 @@ Be sure to [throttle](http://elijahmanor.com/enhanced-chrome-emulation-tools/) y
 .bg-cover {
   @include intrinsic(16, 9);
   
-  background: lighten(dodgerblue, 25%)  url(https://www.fillmurray.com/1600/900) center no-repeat;
+  background: lighten(dodgerblue, 25%) url(https://www.fillmurray.com/1600/900) center no-repeat;
   background-size: cover;
 }
 ```
