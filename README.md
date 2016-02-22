@@ -22,7 +22,7 @@ page reflow.
 
 ### Installation
 - `bower install -D intrinsic`
-- `@import '../bower_components/intrinsic/instrinsic.scss';`
+- `@import 'bower_components/intrinsic/intrinsic';`
 
 ### Usage
 **[CodePen Demo](http://codepen.io/corysimmons/pen/zrVWqQ?editors=1100)**<br>
