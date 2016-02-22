@@ -30,11 +30,11 @@ Be sure to [throttle](http://elijahmanor.com/enhanced-chrome-emulation-tools/) y
 
 ```scss
 .youtube {
-  @include intrinsic(16/9);
+  @include intrinsic(); // defaults to 16/9
 }
 
 .bg-cover {
-  @include intrinsic(16/9);
+  @include intrinsic(2/1);
   
   background: lighten(dodgerblue, 25%) url(https://www.fillmurray.com/1600/900) center no-repeat;
   background-size: cover;
