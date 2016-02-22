@@ -1,0 +1,22 @@
+/*! intrinsic */
+
+@mixin intrinsic ($x: 16, $y: 9, $bg: darken(white, 5%)) {
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: $bg;
+
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    padding-bottom: (100% / (($x / ($x * 0 + 1)) / ($y / ($y * 0 + 1))));
+  }
+}
