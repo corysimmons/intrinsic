@@ -1,4 +1,7 @@
 # @include intrinsic(16, 9);
+
+[![Bower](https://img.shields.io/bower/v/intrinsic.svg)]()
+
 A simple mixin for easy intrinsic ratios.
 
 ### Why?
