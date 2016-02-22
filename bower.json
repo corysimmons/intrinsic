@@ -1,0 +1,27 @@
+{
+  "name": "intrinsic",
+  "homepage": "https://github.com/corysimmons/intrinsic",
+  "authors": [
+    "Cory Simmons"
+  ],
+  "description": "A simple mixin for easy intrinsic ratios.",
+  "main": "intrinsic.scss",
+  "moduleType": [],
+  "keywords": [
+    "intrinsic",
+    "ratio",
+    "mixin",
+    "youtube",
+    "responsive",
+    "video",
+    "reflow"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
