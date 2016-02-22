@@ -21,7 +21,7 @@ Use it on embedded videos, maps, and pretty much anywhere you have an element wi
 page reflow.
 
 ### Installation
-- `bower install -D intrinsic`
+- `bower install intrinsic`
 - `@import 'bower_components/intrinsic/intrinsic';`
 
 ### Usage
