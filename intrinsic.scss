@@ -1,11 +1,11 @@
 /*! intrinsic */
 
-@mixin intrinsic ($x: 16, $y: 9, $bg: darken(white, 5%)) {
-  position: relative;
-  display: block;
+@mixin intrinsic ($ratio: 16/9, $bg: darken(white, 5%)) {
+  display: block;  
+  position: relative;  
   width: 100%;
-  background-color: $bg;
-
+  background-color: $bg;  
+  
   > * {
     position: absolute;
     top: 0;
@@ -13,10 +13,11 @@
     width: 100%;
     height: 100%;
   }
-
+  
   &::before {
     content: '';
     display: block;
-    padding-bottom: (100% / (($x / ($x * 0 + 1)) / ($y / ($y * 0 + 1))));
+    // strip units
+    padding-bottom: (100% / ($ratio / ($ratio * 0 + 1)));
   }
 }

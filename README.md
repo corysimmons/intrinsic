@@ -1,4 +1,4 @@
-# @include intrinsic(16, 9);
+# @include intrinsic(16/9);
 
 [![Bower](https://img.shields.io/bower/v/intrinsic.svg)]()
 
@@ -30,11 +30,11 @@ Be sure to [throttle](http://elijahmanor.com/enhanced-chrome-emulation-tools/) y
 
 ```scss
 .youtube {
-  @include intrinsic(16, 9);
+  @include intrinsic(16/9);
 }
 
 .bg-cover {
-  @include intrinsic(16, 9);
+  @include intrinsic(16/9);
   
   background: lighten(dodgerblue, 25%) url(https://www.fillmurray.com/1600/900) center no-repeat;
   background-size: cover;
@@ -50,8 +50,7 @@ Be sure to [throttle](http://elijahmanor.com/enhanced-chrome-emulation-tools/) y
 ```
 
 ### Options
-- `$x` - The width ratio (e.g. `16` in `16:9`).
-- `$y` - The height ratio (e.g. `9` in `16:9`).
+- `$ratio` - The width/height ratio (e.g. `16/9`).
 - `$bg` - The background color. Defaults to `darken(white, 5%)`. You need to manually add this to your `background` property if you use the background cover technique (see the example code).
 
-**Note:** You can use fixed numbers but they'll get stripped. `intrinsic(1600px, 900px)` turns into `1600, 900`. This is because we can't divide fixed numbers like `1600px / 900px` (not even with `calc`).
+**Note:** You can use fixed numbers but they'll get stripped. `intrinsic(1600px/900px)` turns into `1600/900`. This is because we can't divide numbers with units (not even with `calc`).
