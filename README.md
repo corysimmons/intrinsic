@@ -54,3 +54,4 @@ Be sure to [throttle](http://elijahmanor.com/enhanced-chrome-emulation-tools/) y
 - `$bg` - The background color. Defaults to `darken(white, 5%)`. You need to manually add this to your `background` property if you use the background cover technique (see the example code).
 
 **Note:** You can use fixed numbers but they'll get stripped. `intrinsic(1600px/900px)` turns into `1600/900`. This is because we can't divide numbers with units (not even with `calc`).
+
