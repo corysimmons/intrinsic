@@ -1,5 +1,7 @@
 # @include intrinsic(16/9);
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/corysimmons/intrinsic.svg)](https://greenkeeper.io/)
+
 [![Bower](https://img.shields.io/bower/v/intrinsic.svg)]()
 
 A simple mixin for easy intrinsic ratios.
